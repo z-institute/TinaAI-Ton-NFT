@@ -44,7 +44,7 @@ function init() {
     return __awaiter(this, void 0, void 0, function* () {
         const metadataFolderPath = "./data/metadata/";
         const imagesFolderPath = "./data/images/";
-        const metadataIpfsHash = "QmdEM2MVUbG2xXvEwhWvM22ngC4BRrti1vfF2ceuDETBwY";
+        const metadataIpfsHash = "QmYLJf1JLv3ZPBmbFxTM1oywNf7nUJrPAJydNFvBVRvwge";
         const wallet = yield (0, utils_1.openWallet)(process.env.MNEMONIC.split(" "), true);
         const files = yield (0, promises_1.readdir)(metadataFolderPath);
         files.pop();

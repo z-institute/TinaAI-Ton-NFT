@@ -12,7 +12,7 @@ dotenv.config();
 async function init() {
   const metadataFolderPath = "./data/metadata/";
   const imagesFolderPath = "./data/images/";
-  const metadataIpfsHash = "QmdEM2MVUbG2xXvEwhWvM22ngC4BRrti1vfF2ceuDETBwY";
+  const metadataIpfsHash = "QmYLJf1JLv3ZPBmbFxTM1oywNf7nUJrPAJydNFvBVRvwge";
 
   const wallet = await openWallet(process.env.MNEMONIC!.split(" "), true);
 
