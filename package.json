@@ -1,0 +1,23 @@
+{
+  "name": "MintyTON",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "start:0": "tsc --skipLibCheck && node dist/makeMetadata.js",
+    "start:1": "tsc --skipLibCheck && node dist/uploadMetadata.js",
+    "start:2": "tsc --skipLibCheck && node dist/deployCollection.js",
+    "start:3": "tsc --skipLibCheck && node dist/mintNFT.js"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "ton": "^13.9.0",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0"
+  }
+}
