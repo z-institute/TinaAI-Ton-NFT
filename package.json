@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@pinata/sdk": "^2.1.0",
+    "@tma.js/sdk": "^1.5.1",
     "csv-parser": "^3.0.0",
     "dotenv": "^16.4.5",
     "ton": "^13.9.0",
